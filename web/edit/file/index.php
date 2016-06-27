@@ -69,7 +69,7 @@ if (($_SESSION['user'] == 'admin') && (!empty($_SESSION['look']))) {
 ?>
 
 <form id="edit-file-form" method="post">
-<!-- input id="do-backup" type="button" onClick="javascript:void(0);" name="save" value="backup (ctrl+F2)" class="backup" / -->
+<!-- input id="do-backup" type="button" onclick="javascript:void(0);" name="save" value="backup (ctrl+F2)" class="backup" / -->
 <input type="submit" name="save" value="Save" class="save">
 <textarea name="contents" class="editor" id="editor" rows="4" style="display:none;width: 100%; height: 100%;"><?=htmlentities($content)?></textarea>
 </form>

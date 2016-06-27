@@ -345,7 +345,7 @@ FM.updateTopLevelPathBar = function(box, tab, path) {
 
     var formattedPath = [];
     path = path.replace(FM.ROOT_DIR, '');
-    formattedPath.push('<a href="javascript:void(0)" onClick="FM.open(\''+FM.ROOT_DIR+'\', \''+box+'\')">'+FM.ROOT_DIR+'</span>');
+    formattedPath.push('<a href="javascript:void(0)" onclick="FM.open(\''+FM.ROOT_DIR+'\', \''+box+'\')">'+FM.ROOT_DIR+'</span>');
 
     var fullDirPath = FM.ROOT_DIR;
     $.each(path.split('/'), function(i, part) {
@@ -356,7 +356,7 @@ FM.updateTopLevelPathBar = function(box, tab, path) {
         
         fullDirPath = fullDirPath.replace(/\/\//g, '/');
         
-        formattedPath.push('<a href="javascript:void(0)" onClick="FM.open(\''+fullDirPath+'\', \''+box+'\')">'+part+'</span>');
+        formattedPath.push('<a href="javascript:void(0)" onclick="FM.open(\''+fullDirPath+'\', \''+box+'\')">'+part+'</span>');
     });
 
     $('.pwd-tab-' + tab).html(formattedPath.join(' / '));
@@ -615,13 +615,13 @@ FM.generate_listing = function(reply, box) {
 
     $(reply).each(function(i, o) {
         var path = FM.formatPath(FM['TAB_'+tab+'_CURRENT_PATH']+'/'+o.name);
-        var cl_act = o.type == 'd' ? 'onClick="FM.open(\'' + path + '\', \'' + box + '\')"' : 'onClick="FM.openFile(\''+path+'\', \'' + box + '\', this)"';
+        var cl_act = o.type == 'd' ? 'onclick="FM.open(\'' + path + '\', \'' + box + '\')"' : 'onclick="FM.openFile(\''+path+'\', \'' + box + '\', this)"';
         //var cl_act = o.type == 'd' ? 'onDblClick="FM.open(\'' + path + '\', \'' + box + '\')"' : 'onDblClick="FM.openFile(\''+path+'\', \'' + box + '\', this)"';
         //var cl_act = '';
 
         if (o.name == '') {
             path = FM.formatPath(back_path);
-            cl_act = o.type == 'd' ? 'onClick="FM.open(\'' + path + '\', \'' + box + '\')"' : 'onClick="FM.openFile(\''+path+'\', \'' + box + '\', this)"';
+            cl_act = o.type == 'd' ? 'onclick="FM.open(\'' + path + '\', \'' + box + '\')"' : 'onclick="FM.openFile(\''+path+'\', \'' + box + '\', this)"';
             o = {
                 type: 'd',
                 name: '..',
@@ -648,7 +648,7 @@ FM.generate_listing = function(reply, box) {
                 'thumb': "/view/file/?path="+o.full_path+"&raw=true", 
                 'id': 'img-'+i
             };
-            cl_act = 'onClick="FM.fotoramaOpen(\'' + tab + '\', \'img-' + i +'\')"';
+            cl_act = 'onclick="FM.fotoramaOpen(\'' + tab + '\', \'img-' + i +'\')"';
         }
 
         var t_index = tab + '_' + i;
@@ -2309,7 +2309,7 @@ $(document).ready(function() {
             else {
                 if(FM.IMG_FILETYPES.indexOf(src.filetype) >= 0 && src.filetype.length > 0) {
                     //FM.IMAGES[tab][FM.IMAGES[tab].length] = {'img': "/view/file/?path=/home/admin/"+o.name+"&raw=true", 'thumb': "/view/file/?path=/home/admin/"+o.name//+"&raw=true", 'id': 'img-'+i};
-                    //cl_act = 'onClick="FM.fotoramaOpen(\'' + tab + '\', \'img-' + i +'\')"';
+                    //cl_act = 'onclick="FM.fotoramaOpen(\'' + tab + '\', \'img-' + i +'\')"';
                     FM.fotoramaOpen(tab, 'img-' + elm.index());
                 }
                 else {

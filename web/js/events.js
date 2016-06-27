@@ -172,7 +172,7 @@ VE.helpers.initAdditionalPasswordFieldElements = function(ref) {
     $(ref).prop('autocomplete', 'off');
 
     var enabled_html = enabled ? '' : 'show-passwords-enabled-action';
-    var html = '<span class="hide-password"><img class="toggle-psw-visibility-icon ' + enabled_html + '" onClick="VE.helpers.toggleHiddenPasswordText(\'' + ref + '\', this)" src="/images/toggle_password.png" /></span>';
+    var html = '<span class="hide-password"><img class="toggle-psw-visibility-icon ' + enabled_html + '" onclick="VE.helpers.toggleHiddenPasswordText(\'' + ref + '\', this)" src="/images/toggle_password.png" /></span>';
     $(ref).after(html);
 }
 

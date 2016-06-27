@@ -34,22 +34,22 @@ App.Templates.html = {
                         <span class="size-value">~!:SIZE_VALUE~!</span>\
                         <span class="date">~!:DATE~!</span>\
                         <span class="time">~!:TIME~!</span>\
-                        <!-- span class="subcontext-control ~!:SUBMENU_CLASS~!" onClick="FM.toggleSubContextMenu(this)">&#8226;&#8226;&#8226;&nbsp;\
-                        <ul class="subcontext-menu subcontext-menu-hidden"><li onClick="FM.downloadFileFromSubcontext(this);">Download</li><li onClick="FM.editFileFromSubcontext(this);">Edit</li></ul>\
+                        <!-- span class="subcontext-control ~!:SUBMENU_CLASS~!" onclick="FM.toggleSubContextMenu(this)">&#8226;&#8226;&#8226;&nbsp;\
+                        <ul class="subcontext-menu subcontext-menu-hidden"><li onclick="FM.downloadFileFromSubcontext(this);">Download</li><li onclick="FM.editFileFromSubcontext(this);">Edit</li></ul>\
                         </span -->\
                     </li>'],
         popup_alert: ['<div class="confirm-box alarm popup-box">\
                             <div class="message">~!:TEXT~!</div>\
                                 <div class="controls">\
-                            <p class="ok" onClick="FM.popupClose();">'+App.Constants.FM_CLOSE+'</p>\
+                            <p class="ok" onclick="FM.popupClose();">'+App.Constants.FM_CLOSE+'</p>\
                             </div>\
                         </div>'],
         popup_bulk_remove: ['<div class="confirm-box delete popup-box">\
                             <div class="message">'+App.Constants.FM_CONFIRM_DELETE_BULK+' (~!:NUMBER_OF_ITEMS~!)?</div>\
                             <div class="results"></div>\
                                 <div class="controls">\
-                            <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                            <p class="ok" onClick="FM.bulkRemoveDo();">'+App.Constants.FM_DELETE+'</p>\
+                            <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                            <p class="ok" onclick="FM.bulkRemoveDo();">'+App.Constants.FM_DELETE+'</p>\
                             </div>\
                         </div>'],
         popup_bulk_copy: ['<div class="confirm-box copy popup-box">\
@@ -60,15 +60,15 @@ App.Templates.html = {
                             <div class="results"></div>\
                             <div class="warning">'+App.Constants.FM_EXISTING_FILES_WILL_BE_REPLACED+'</div>\
                                 <div class="controls">\
-                            <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                            <p class="ok" onClick="FM.bulkCopyDo();">'+App.Constants.FM_COPY+'</p>\
+                            <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                            <p class="ok" onclick="FM.bulkCopyDo();">'+App.Constants.FM_COPY+'</p>\
                             </div>\
                         </div>'],
         /*popup_bulk: ['<div class="confirm-box alarm popup-box">\
                             <div class="message">~!:ACTION~!: <br />~!:TEXT~!</div>\
                             <div class="results"></div>\
                                 <div class="controls">\
-                            <!-- p class="ok" onClick="FM.popupClose();">'+App.Constants.FM_CLOSE+'</p -->\
+                            <!-- p class="ok" onclick="FM.popupClose();">'+App.Constants.FM_CLOSE+'</p -->\
                             <p><img src="/images/in_progress.gif"></p>\
                             </div>\
                         </div>'],*/
@@ -76,8 +76,8 @@ App.Templates.html = {
                             <div class="message">'+App.Constants.FM_CONFIRM_DELETE+' <span class="title">"~!:FILENAME~!"</span>?</div>\
                             <div class="warning warning-message"></div>\
                                 <div class="controls">\
-                            <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                            <p class="ok" onClick="FM.confirmDelete();">'+App.Constants.FM_DELETE+'</p>\
+                            <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                            <p class="ok" onclick="FM.confirmDelete();">'+App.Constants.FM_DELETE+'</p>\
                             </div>\
                         </div>'],
         popup_copy: ['<div class="confirm-box copy popup-box">\
@@ -88,8 +88,8 @@ App.Templates.html = {
                             <div class="message">'+App.Constants.FM_EXISTING_FILES_WILL_BE_REPLACED+'</div>\
                            <div class="warning warning-message"></div>\
                                 <div class="controls">\
-                            <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                            <p class="ok" onClick="FM.confirmCopyItems();">'+App.Constants.FM_COPY+'</p>\
+                            <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                            <p class="ok" onclick="FM.confirmCopyItems();">'+App.Constants.FM_COPY+'</p>\
                             </div>\
                         </div>'],
         popup_rename: ['<div class="confirm-box rename warning">\
@@ -99,12 +99,12 @@ App.Templates.html = {
                                 <input type="text" id="rename-title" class="new-title"  value="~!:NEW_NAME~!" />\
                             </div>\
                             <div class="controls">\
-                                <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                                <p class="ok" onClick="FM.confirmRename();">'+App.Constants.FM_RENAME+'</p>\
+                                <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                                <p class="ok" onclick="FM.confirmRename();">'+App.Constants.FM_RENAME+'</p>\
                             </div>\
                             <div class="controls replace">\
-                                <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                                <p class="ok" onClick="FM.confirmRename();">'+App.Constants.FM_RENAME+'</p>\
+                                <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                                <p class="ok" onclick="FM.confirmRename();">'+App.Constants.FM_RENAME+'</p>\
                             </div>\
                         </div>'],
 
@@ -127,8 +127,8 @@ App.Templates.html = {
                                 </ul>\
                             </div>\
                             <div class="controls">\
-                                <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                                <p class="ok" onClick="FM.confirmChmod();">'+App.Constants.FM_OK+'</p>\
+                                <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                                <p class="ok" onclick="FM.confirmChmod();">'+App.Constants.FM_OK+'</p>\
                             </div>\
                         </div>'],
         popup_bulk_chmod: ['<div class="confirm-box chmod warning">\
@@ -150,8 +150,8 @@ App.Templates.html = {
                                 </ul>\
                             </div>\
                             <div class="controls">\
-                                <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                                <p class="ok" onClick="FM.confirmBulkChmod();">'+App.Constants.FM_OK+'</p>\
+                                <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                                <p class="ok" onclick="FM.confirmBulkChmod();">'+App.Constants.FM_OK+'</p>\
                             </div>\
                         </div>'],
 
@@ -165,8 +165,8 @@ App.Templates.html = {
                                 <label><input type="checkbox" name="overwrite" class="title" />Overwrite exising files</label>\
                             </div -->\
                             <div class="controls">\
-                                <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                                <p class="ok" onClick="FM.confirmPackItem();">'+App.Constants.FM_PACK_BUTTON+'</p>\
+                                <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                                <p class="ok" onclick="FM.confirmPackItem();">'+App.Constants.FM_PACK_BUTTON+'</p>\
                             </div>\
                         </div>'],
 
@@ -180,8 +180,8 @@ App.Templates.html = {
                                 <label><input type="checkbox" name="overwrite" class="title" />Overwrite exising files</label>\
                             </div -->\
                             <div class="controls">\
-                                <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                                <p class="ok" onClick="FM.confirmUnpackItem();">'+App.Constants.FM_EXTRACT+'</p>\
+                                <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                                <p class="ok" onclick="FM.confirmUnpackItem();">'+App.Constants.FM_EXTRACT+'</p>\
                             </div>\
                         </div>'],
 
@@ -194,8 +194,8 @@ App.Templates.html = {
                                 <input type="text" id="rename-title" class="new-title" />\
                             </div>\
                             <div class="controls replace">\
-                                <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                                <p class="ok" onClick="FM.confirmCreateFile();">'+App.Constants.FM_CREATE+'</p>\
+                                <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                                <p class="ok" onclick="FM.confirmCreateFile();">'+App.Constants.FM_CREATE+'</p>\
                             </div>\
                         </div>'],
         popup_create_dir: ['<div class="confirm-box rename warning">\
@@ -206,14 +206,14 @@ App.Templates.html = {
                                 <input type="text" id="rename-title" class="new-title" />\
                             </div>\
                             <div class="controls replace">\
-                                <p class="cancel" onClick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
-                                <p class="ok" onClick="FM.confirmCreateDir();">'+App.Constants.FM_CREATE+'</p>\
+                                <p class="cancel" onclick="FM.popupClose();">'+App.Constants.FM_CANCEL+'</p>\
+                                <p class="ok" onclick="FM.confirmCreateDir();">'+App.Constants.FM_CREATE+'</p>\
                             </div>\
                         </div>'],
         popup_no_file_selected: ['<div class="confirm-box no-file-selected">\
                             <div class="message">Please select a file</div>\
                             <div class="controls">\
-                                <p class="ok" onClick="FM.confirmCreateDir();">'+App.Constants.FM_OK+'</p>\
+                                <p class="ok" onclick="FM.confirmCreateDir();">'+App.Constants.FM_OK+'</p>\
                             </div>\
                         </div>']
     }
