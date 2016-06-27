@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<html lang="en">
 <head>
+<meta charset="utf-8">
 <title><?=__('File Manager')?></title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="/images/filemanager.ico?" type="image/x-icon">
 <link rel="icon" href="/images/filemanager.ico?" type="image/x-icon">
 <link rel="stylesheet" href="/css/file_manager.css" type="text/css" />
@@ -126,7 +126,7 @@
         <script src="/js/jquery.iframe-transport.js"></script>
         <script src="/js/jquery.fileupload.js"></script>
         <script src="/js/jquery.arcticmodal.js"></script>
-        
+
         <?php if (!empty($GLOBAL_JS)): ?>
             <?php echo $GLOBAL_JS; ?>
         <?php endif; ?>
@@ -144,11 +144,11 @@
                     singleFileUploads: false,
                     add: function (e, data) {
                         FM.setTabActive(FM['TAB_'+letter]);
-                        
+
                         var tab = FM.getTabLetter(FM.CURRENT_TAB);
                         var file_relocation = FM['TAB_'+tab+'_CURRENT_PATH'];
-                        
-                        
+
+
 
                         $('#file_upload_' + letter).fileupload("option", "url", url + '?dir=' + file_relocation);
                         acc = $('<div>');
@@ -200,14 +200,14 @@
                             $(info).find('.close').bind('click', function() {
                                 $('#file-upload-msg').remove();
                             });
-                            
+
                             $('body').append($(info).removeClass('hidden'));
-                        
+
                             window.ht_fd = setTimeout(function() {
                                 $('#file-upload-msg').fadeOut();
                             }, 3000);
                         }*/
-                        
+
                         var tab = FM.getTabLetter(FM.CURRENT_TAB);
                         var box = FM['TAB_' + tab];
                         FM.openAndSync(FM['TAB_' + tab + '_CURRENT_PATH'], box);
@@ -231,7 +231,7 @@
                 .prop('disabled', !$.support.fileInput)
                     .parent().addClass($.support.fileInput ? undefined : 'disabled');
             });
-            
+
             $.widget("shift.selectable", $.ui.selectable, {
                 options: {}, // required
                 previousIndex: -1, // additional attribute to store previous selection index
@@ -277,16 +277,16 @@
                     $('.menu-'+tab+' .extract-btn').hide();
                 }
             }
-            
-            
+
+
             $(".listing-left").selectable({
                 selected: function (event, ui) {
 					//console.log(ui);
 					//console.log($(".listing-left .selected"));
 					FM.setTabActive(FM.TAB_A, 'skip_highlights');
-					
+
 					$(".listing-left .active").removeClass('active');
-					
+
                     $(".listing-left .selected").each(function(i, o) {
                         if (!$(o).hasClass('ui-selected')) {
                             $(o).removeClass('selected');
@@ -295,19 +295,19 @@
                     });
                     $(ui.selected).addClass('selected');
                     $(ui.selected).addClass('active');
-                    
-                    
+
+
                     //$(ui.selected).addClass('active');
                     checkIfArchive(ui.selected);
                     $(".listing-left .ui-selected").addClass('selected');
-                    
+
                     if ($(".listing-left .active").length > 0) {
 						FM['CURRENT_A_LINE'] = $(".listing-left .active").index();
 					}
 					else {
 						FM['CURRENT_A_LINE'] = 0;
 					}
-					
+
 					FM.preselectedItems.A = [];
 
                     /*FM.setTabActive(FM.TAB_A, 'skip_highlights');
@@ -324,17 +324,17 @@
                 },
                 unselected: function (event, ui) {
 					FM.setTabActive(FM.TAB_A, 'skip_highlights');
-					
+
 					$(ui.unselected).removeClass('selected');
 					$(ui.unselected).removeClass('active');
-					
+
 					if ($(".listing-left .active").length > 0) {
 						FM['CURRENT_A_LINE'] = $(".listing-left .active").index();
 					}
 					else {
 						FM['CURRENT_A_LINE'] = 0;
 					}
-					
+
                     /*$(".listing-left .selected, .listing-left .ui-selectee").each(function(i, o) {
                         if (!$(o).hasClass('ui-selected')) {
                             $(o).removeClass('selected');
@@ -349,9 +349,9 @@
             $(".listing-right").selectable({
                 selected: function (event, ui) {
                     FM.setTabActive(FM.TAB_B, 'skip_highlights');
-					
+
 					$(".listing-right .active").removeClass('active');
-					
+
                     $(".listing-right .selected").each(function(i, o) {
                         if (!$(o).hasClass('ui-selected')) {
                             $(o).removeClass('selected');
@@ -360,29 +360,29 @@
                     });
                     $(ui.selected).addClass('selected');
                     $(ui.selected).addClass('active');
-                    
-                    
+
+
                     //$(ui.selected).addClass('active');
                     checkIfArchive(ui.selected);
                     $(".listing-right .ui-selected").addClass('selected');
-                    
-                    
+
+
                     if ($(".listing-right .active").length > 0) {
 						FM['CURRENT_B_LINE'] = $(".listing-right .active").index();
 					}
 					else {
 						FM['CURRENT_B_LINE'] = 0;
 					}
-					
+
 					FM.preselectedItems.B = [];
-                    
+
                 },
                 unselected: function (event, ui) {
                     FM.setTabActive(FM.TAB_B, 'skip_highlights');
-					
+
 					$(ui.unselected).removeClass('selected');
 					$(ui.unselected).removeClass('active');
-					
+
 					if ($(".listing-right .active").length > 0) {
 						FM['CURRENT_B_LINE'] = $(".listing-right .active").index();
 					}
@@ -415,8 +415,8 @@
                     $(ui.unselected).removeClass('selected');
                 }
             });*/
-           
-            
+
+
         });
         </script>
 </body>
