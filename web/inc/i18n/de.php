@@ -383,7 +383,7 @@ $LANG['de'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'DNS Domain <a href="/list/dns/?domain=%s"><b>%s</b></a> wurde erfolgreich angelegt.',
     'DNS_RECORD_CREATED_OK'  => 'Eintrag <b>%s.%s</b> wurde erfolgreich angelegt.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Mail Domain <a href="/list/mail/?domain=%s"><b>%s</b></a> wurde erfolgreich angelegt.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Mail Account <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> wurde erfolgreich angelegt.',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Mail Account <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> wurde erfolgreich angelegt.',
     'DATABASE_CREATED_OK'  => 'Datenbank <a href="/edit/db/?database=%s"><b>%s</b></a> wurde erfolgreich angelegt',
     'CRON_CREATED_OK'  => 'Cron Job wurde erfolgreich angelegt.',
     'IP_CREATED_OK'  => 'IP Adresse <a href="/edit/ip/?ip=%s"><b>%s</b></a> wurde erfolgreich hinzugefügt.',

@@ -388,7 +388,7 @@ $LANG['fi'] = array(
     'DNS_DOMAIN_CREATED_OK' => 'DNS-domain <a href="/list/dns/?domain=%s"><b>%s</b></a> lisättiin onnistuneesti.',
     'DNS_RECORD_CREATED_OK' => 'Tietue <b>%s.%s</b> lisättiin onnistuneesti.',
     'MAIL_DOMAIN_CREATED_OK' => 'Sähköpostidomain <a href="/list/mail/?domain=%s"><b>%s</b></a> lisättiin onnistuneesti.',
-    'MAIL_ACCOUNT_CREATED_OK' => 'Sähköpostitili <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> lisättiin onnistuneesti.',
+    'MAIL_ACCOUNT_CREATED_OK' => 'Sähköpostitili <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> lisättiin onnistuneesti.',
     'DATABASE_CREATED_OK' => 'Tietokanta <a href="/edit/db/?database=%s"><b>%s</b></a> lisättiin onnistuneesti.',
     'CRON_CREATED_OK' => 'Cron-tehtävä lisättiin onnistuneesti.',
     'IP_CREATED_OK' => 'IP-osoite <a href="/edit/ip/?ip=%s"><b>%s</b></a> lisättiin onnistuneesti.',

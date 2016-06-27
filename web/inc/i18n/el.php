@@ -385,7 +385,7 @@ $LANG['el'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'To DNS Domain <a href="/list/dns/?domain=%s"><b>%s</b></a> έχει δημιουργηθεί επιτυχώς.',
     'DNS_RECORD_CREATED_OK'  => 'Η εγγραφή <b>%s.%s</b> έχει δημιουργηθεί επιτυχώς.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Το mail domain <a href="/list/mail/?domain=%s"><b>%s</b></a> έχει δημιουργηθεί επιτυχώς.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Ο λογαριασμός mail <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> έχει δημιουργηθεί επιτυχώς.',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Ο λογαριασμός mail <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> έχει δημιουργηθεί επιτυχώς.',
     'DATABASE_CREATED_OK'  => 'Η βάση δεδομένων <a href="/edit/db/?database=%s"><b>%s</b></a> έχει δημιουργηθεί επιτυχώς.',
     'CRON_CREATED_OK'  => 'Το cron job έχει δημιουργηθεί επιτυχώς.',
     'IP_CREATED_OK'  => 'Η διεύθυνση IP <a href="/edit/ip/?ip=%s"><b>%s</b></a> έχει δημιουργηθεί επιτυχώς.',

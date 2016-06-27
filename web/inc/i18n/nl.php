@@ -385,7 +385,7 @@ $LANG['nl'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'DNS domein <a href="/list/dns/?domain=%s"><b>%s</b></a> is succesvol aangemaakt.',
     'DNS_RECORD_CREATED_OK'  => 'Record <b>%s.%s</b> is succesvol aangemaakt.',
     'MAIL_DOMAIN_CREATED_OK'  => 'E-mail domein <a href="/list/mail/?domain=%s"><b>%s</b></a> is succesvol aangemaakt.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Mail account <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> is succesvol aangemaakt',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Mail account <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> is succesvol aangemaakt',
     'DATABASE_CREATED_OK'  => 'Database <a href="/edit/db/?database=%s"><b>%s</b></a> is succesvol aangemaakt',
     'CRON_CREATED_OK'  => 'Geplande taak is met succes aangemaakt.',
     'IP_CREATED_OK'  => 'IP-adres <a href="/edit/ip/?ip=%s"><b>%s</b></a> is succesvol aangemaakt.',

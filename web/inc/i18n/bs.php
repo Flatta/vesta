@@ -379,7 +379,7 @@ $LANG['bs'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'DNS domena <a href="/list/dns/?domain=%s"><b>%s</b></a> je uspješno napravljena.',
     'DNS_RECORD_CREATED_OK'  => 'Zapis <b>%s.%s</b> je uspješno napravljen.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Mail domena <a href="/list/mail/?domain=%s"><b>%s</b></a> je uspješno napravljena.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Mail račun <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> je uspješno napravljen.',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Mail račun <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> je uspješno napravljen.',
     'DATABASE_CREATED_OK'  => 'Database <a href="/edit/db/?database=%s"><b>%s</b></a> je uspješno napravljena',
     'CRON_CREATED_OK'  => 'Cron job je uspješno napravljen.',
     'IP_CREATED_OK'  => 'IP adrese <a href="/edit/ip/?ip=%s"><b>%s</b></a> su uspješno napravljene.',

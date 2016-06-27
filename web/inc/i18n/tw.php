@@ -411,7 +411,7 @@ $LANG['tw'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'DNS網域 <a href="/list/dns/?domain=%s"><b>%s</b></a> 已加入成功!',
     'DNS_RECORD_CREATED_OK'  => '記錄 <b>%s.%s</b> 已加入成功!',
     'MAIL_DOMAIN_CREATED_OK'  => '信箱網域 <a href="/list/mail/?domain=%s"><b>%s</b></a> 已加入成功!',
-    'MAIL_ACCOUNT_CREATED_OK'  => '信箱帳號 <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> 已加入成功!',
+    'MAIL_ACCOUNT_CREATED_OK'  => '信箱帳號 <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> 已加入成功!',
     'DATABASE_CREATED_OK'  => '資料庫 <a href="/edit/db/?database=%s"><b>%s</b></a> 已加入成功!',
     'CRON_CREATED_OK'  => '任務排程 已加入成功!',
     'IP_CREATED_OK'  => 'IP位置 <a href="/edit/ip/?ip=%s"><b>%s</b></a> 已加入成功!',

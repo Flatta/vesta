@@ -383,7 +383,7 @@ $LANG['pl'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'Stworzono domenę DNS <a href="/list/dns/?domain=%s"><b>%s</b></a>.',
     'DNS_RECORD_CREATED_OK'  => 'Stworzono rekord <b>%s.%s</b>.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Stworzono domenę email <a href="/list/mail/?domain=%s"><b>%s</b></a>.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Stworzono konto email <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a>.',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Stworzono konto email <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a>.',
     'DATABASE_CREATED_OK'  => 'Stworono bazę danych <a href="/edit/db/?database=%s"><b>%s</b></a>.',
     'CRON_CREATED_OK'  => 'Stworzono zadanie crona.',
     'IP_CREATED_OK'  => 'Stworzono adres IP <a href="/edit/ip/?ip=%s"><b>%s</b></a>.',

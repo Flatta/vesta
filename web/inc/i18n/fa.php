@@ -389,7 +389,7 @@ $LANG['fa'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'دامنه DNS <a href="/list/dns/?domain=%s"><b>%s</b></a> با موفقيت ايجاد شد.',
     'DNS_RECORD_CREATED_OK'  => 'پیشینه <b>%s.%s</b> با موفقيت ايجاد شد.',
     'MAIL_DOMAIN_CREATED_OK'  => 'دامنه ایمیل <a href="/list/mail/?domain=%s"><b>%s</b></a> با موفقيت ايجاد شد.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'حساب ایمیل <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> با موفقيت ايجاد شد.',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'حساب ایمیل <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> با موفقيت ايجاد شد.',
     'DATABASE_CREATED_OK'  => 'پايگاه داده <a href="/edit/db/?database=%s"><b>%s</b></a> با موفقيت ايجاد شد.',
     'CRON_CREATED_OK'  => 'كار خودكار با موفقيت ايجاد شد.',
     'IP_CREATED_OK'  => 'آدرس آی پی <a href="/edit/ip/?ip=%s"><b>%s</b></a> با موفقيت ايجاد شد.',

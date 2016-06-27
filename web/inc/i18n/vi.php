@@ -381,7 +381,7 @@ $LANG['vi'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'Miền DNS <a href="/list/dns/?domain=%s"><b>%s</b></a> đã được tạo thành công.',
     'DNS_RECORD_CREATED_OK'  => 'Bản ghi <b>%s.%s</b> đã được tạo thành công.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Miền email <a href="/list/mail/?domain=%s"><b>%s</b></a> đã được tạo thành công.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Tài khoản email <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> đã được tạo thành công.',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Tài khoản email <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> đã được tạo thành công.',
     'DATABASE_CREATED_OK'  => 'CSDL <a href="/edit/db/?database=%s"><b>%s</b></a> đã được tạo thành công.',
     'CRON_CREATED_OK'  => 'Tiến trình tự động đã được tạo thành công.',
     'IP_CREATED_OK'  => 'Địa chỉ IP <a href="/edit/ip/?ip=%s"><b>%s</b></a> đã được tạo thành công.',

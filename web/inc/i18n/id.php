@@ -387,7 +387,7 @@ $LANG['id'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'Domain DNS<a href="/list/dns/?domain=%s"><b>%s</b></a> udah berhasil dibikin.',
     'DNS_RECORD_CREATED_OK'  => 'Record <b>%s.%s</b> udah berhasil dibikin.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Domain Mail <a href="/list/mail/?domain=%s"><b>%s</b></a> udah berhasil dibikin.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Akun Mail <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> udah berhasil dibikin',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Akun Mail <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> udah berhasil dibikin',
     'DATABASE_CREATED_OK'  => 'Database <a href="/edit/db/?database=%s"><b>%s</b></a> udah berhasil dibikin',
     'CRON_CREATED_OK'  => 'Cron job udah berhasil dibuat.',
     'IP_CREATED_OK'  => 'Alamat IP <a href="/edit/ip/?ip=%s"><b>%s</b></a> udah berhasil dibikin.',

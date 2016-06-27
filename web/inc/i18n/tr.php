@@ -385,7 +385,7 @@ $LANG['tr'] = array(
     'DNS_DOMAIN_CREATED_OK'  => '<a href="/list/dns/?domain=%s"><b>%s</b></a> DNS alan adı başarıyla oluşturuldu.',
     'DNS_RECORD_CREATED_OK'  => '<b>%s.%s</b> kaydı başarıyla oluşturuldu.',
     'MAIL_DOMAIN_CREATED_OK'  => '<a href="/list/mail/?domain=%s"><b>%s</b></a> mail alan adı başarıyla oluşturuldu',
-    'MAIL_ACCOUNT_CREATED_OK'  => '<a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> mail hesabı başarıyla oluşturuldu',
+    'MAIL_ACCOUNT_CREATED_OK'  => '<a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> mail hesabı başarıyla oluşturuldu',
     'DATABASE_CREATED_OK'  => '<a href="/edit/db/?database=%s"><b>%s</b></a> veritabanı başarıyla oluşturuldu.',
     'CRON_CREATED_OK'  => 'Zamanlanmış görev başarıyla oluşturuldu.',
     'IP_CREATED_OK'  => '<a href="/edit/ip/?ip=%s"><b>%s</b></a> ip adresi başarıyla oluşturuldu.',

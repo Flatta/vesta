@@ -384,7 +384,7 @@ $LANG['ja'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'DNSドメイン <a href="/list/dns/?domain=%s"><b>%s</b></a> は正常に作成されました',
     'DNS_RECORD_CREATED_OK'  => 'レコード <b>%s.%s</b> は正常に作成されました',
     'MAIL_DOMAIN_CREATED_OK'  => 'メールドメイン <a href="/list/mail/?domain=%s"><b>%s</b></a> は正常に作成されました',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'メールアカウント <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> は正常に作成されました',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'メールアカウント <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> は正常に作成されました',
     'DATABASE_CREATED_OK'  => 'データベース <a href="/edit/db/?database=%s"><b>%s</b></a> は正常に作成されました',
     'CRON_CREATED_OK'  => 'Cronジョブは正常に作成されました',
     'IP_CREATED_OK'  => 'IPアドレス <a href="/edit/ip/?ip=%s"><b>%s</b></a> は正常に作成されました',

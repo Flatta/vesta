@@ -382,7 +382,7 @@ $LANG['se'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'DNS-domänen <a href="/list/dns/?domain=%s"><b>%s</b></a> har skapats.',
     'DNS_RECORD_CREATED_OK'  => 'Posten <b>%s.%s</b> har skapats.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Mail-domänen <a href="/list/mail/?domain=%s"><b>%s</b></a> har skapats.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Mailkontot <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> har skapats.',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Mailkontot <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> har skapats.',
     'DATABASE_CREATED_OK'  => 'Databasen <a href="/edit/db/?database=%s"><b>%s</b></a> har skapats.',
     'CRON_CREATED_OK'  => 'Cron-uppdrag skapat.',
     'IP_CREATED_OK'  => 'IP-adressen <a href="/edit/ip/?ip=%s"><b>%s</b></a> är tillagd.',

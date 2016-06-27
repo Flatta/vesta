@@ -384,7 +384,7 @@ $LANG['ar'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'النطاق <a href="/list/dns/?domain=%s"><b>%s</b></a> تم إنشائه بنجاح.',
     'DNS_RECORD_CREATED_OK'  => 'السجل <b>%s.%s</b> تم إنشائه بنجاح.',
     'MAIL_DOMAIN_CREATED_OK'  => 'نطاق البريد <a href="/list/mail/?domain=%s"><b>%s</b></a> تم إنشائه بنجاح.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'حساب البريد <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> تم إنشائه بنجاح',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'حساب البريد <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> تم إنشائه بنجاح',
     'DATABASE_CREATED_OK'  => 'قاعدة البيانات <a href="/edit/db/?database=%s"><b>%s</b></a> تم إنشائها بنجاح',
     'CRON_CREATED_OK'  => 'الوظيفة المجدولة تم إنشائها بنجاح.',
     'IP_CREATED_OK'  => 'عنوان بروتوكول الإنترنت <a href="/edit/ip/?ip=%s"><b>%s</b></a> تم إنشائه بنجاح.',

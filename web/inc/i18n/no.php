@@ -385,7 +385,7 @@ $LANG['no'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'DNS-domene <a href="/list/dns/?domain=%s"><b>%s</b></a> har blitt opprettet.',
     'DNS_RECORD_CREATED_OK'  => 'Oppslag <b>%s.%s</b> har blitt opprettet.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Maildomene <a href="/list/mail/?domain=%s"><b>%s</b></a> har blitt opprettet.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Mailkonto <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> har blitt opprettet',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Mailkonto <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> har blitt opprettet',
     'DATABASE_CREATED_OK'  => 'Database <a href="/edit/db/?database=%s"><b>%s</b></a> har blitt opprettet',
     'CRON_CREATED_OK'  => 'Cron jobb har blitt opprettet.',
     'IP_CREATED_OK'  => 'IP addresse <a href="/edit/ip/?ip=%s"><b>%s</b></a> har blitt opprettet.',

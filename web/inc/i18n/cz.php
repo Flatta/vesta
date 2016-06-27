@@ -385,7 +385,7 @@ $LANG['cz'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'DNS doména <a href="/list/dns/?domain=%s"><b>%s</b></a> byla úspěšně vytvořena.',
     'DNS_RECORD_CREATED_OK'  => 'Záznam <b>%s.%s</b> byl úspěšně vytvořen.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Mail doména <a href="/list/mail/?domain=%s"><b>%s</b></a> byla úspěšně vytvořena.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Mail účet <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> byl úspěšně vytvořen',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Mail účet <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> byl úspěšně vytvořen',
     'DATABASE_CREATED_OK'  => 'Databáze <a href="/edit/db/?database=%s"><b>%s</b></a> byla úspěšně vytvořena',
     'CRON_CREATED_OK'  => 'Cron job byl úspěšně vytvořen.',
     'IP_CREATED_OK'  => 'IP adresa <a href="/edit/ip/?ip=%s"><b>%s</b></a> byla úspěšně vytvořena.',

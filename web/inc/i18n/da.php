@@ -386,7 +386,7 @@ $LANG['da'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'DNS-domæne <a href="/list/dns/?domain=%s"><b>%s</b></a> blev oprettet med succes.',
     'DNS_RECORD_CREATED_OK'  => 'Record <b>%s.%s</b> blev oprettet med succes.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Maildomæne <a href="/list/mail/?domain=%s"><b>%s</b></a> blev oprettet med succes.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Mailkonto <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> blev oprettet med succes.',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Mailkonto <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> blev oprettet med succes.',
     'DATABASE_CREATED_OK'  => 'Database <a href="/edit/db/?database=%s"><b>%s</b></a> blev oprettet med succes.',
     'CRON_CREATED_OK'  => 'Cronjob blev oprettet med succes.',
     'IP_CREATED_OK'  => 'IP-addresse <a href="/edit/ip/?ip=%s"><b>%s</b></a> blev oprettet med succes.',

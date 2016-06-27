@@ -385,7 +385,7 @@ $LANG['cn'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'DNS domain <a href="/list/dns/?domain=%s"><b>%s</b></a> 已创建成功.',
     'DNS_RECORD_CREATED_OK'  => 'Record <b>%s.%s</b> 已创建成功.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Mail domain <a href="/list/mail/?domain=%s"><b>%s</b></a> 已创建成功.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Mail account <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> 已创建成功',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Mail account <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> 已创建成功',
     'DATABASE_CREATED_OK'  => 'Database <a href="/edit/db/?database=%s"><b>%s</b></a> 已创建成功',
     'CRON_CREATED_OK'  => 'Cron job 已创建成功.',
     'IP_CREATED_OK'  => 'IP address <a href="/edit/ip/?ip=%s"><b>%s</b></a> 已创建成功.',

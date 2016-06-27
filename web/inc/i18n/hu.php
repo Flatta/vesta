@@ -393,7 +393,7 @@ $LANG['hu'] = array(
     'DNS_DOMAIN_CREATED_OK'  => '<a href="/list/dns/?domain=%s"><b>%s</b></a> DNS domain sikeresen létrehozva.',
     'DNS_RECORD_CREATED_OK'  => '<b>%s.%s</b> rekord sikeresen létrehozva.',
     'MAIL_DOMAIN_CREATED_OK'  => '<a href="/list/mail/?domain=%s"><b>%s</b></a> ail domain sikeresen létrehozva.',
-    'MAIL_ACCOUNT_CREATED_OK'  => '<a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> mail fiók sikeresen létrehozva.',
+    'MAIL_ACCOUNT_CREATED_OK'  => '<a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> mail fiók sikeresen létrehozva.',
     'DATABASE_CREATED_OK'  => '<a href="/edit/db/?database=%s"><b>%s</b></a> adatbázis sikeresen létrehozva.',
     'CRON_CREATED_OK'  => 'Cron job sikeresen létrehozva.',
     'IP_CREATED_OK'  => '<a href="/edit/ip/?ip=%s"><b>%s</b></a> IP cím sikeresen létrehozva.',

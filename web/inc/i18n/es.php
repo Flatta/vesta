@@ -384,7 +384,7 @@ $LANG['es'] = array(
     'DNS_DOMAIN_CREATED_OK'  => 'Dominio DNS <a href="/list/dns/?domain=%s"><b>%s</b></a> ha sido creado correctamente.',
     'DNS_RECORD_CREATED_OK'  => 'Registro <b>%s.%s</b> ha sido creado correctamente.',
     'MAIL_DOMAIN_CREATED_OK'  => 'Dominio de correo <a href="/list/mail/?domain=%s"><b>%s</b></a> ha sido creado correctamente.',
-    'MAIL_ACCOUNT_CREATED_OK'  => 'Cuenta de correo <a href="/edit/mail/?account=%s&domain=%s"><b>%s@%s</b></a> ha sido creada correctamente',
+    'MAIL_ACCOUNT_CREATED_OK'  => 'Cuenta de correo <a href="/edit/mail/?account=%s&amp;domain=%s"><b>%s@%s</b></a> ha sido creada correctamente',
     'DATABASE_CREATED_OK'  => 'Base de datos <a href="/edit/db/?database=%s"><b>%s</b></a> ha sido creada correctamente',
     'CRON_CREATED_OK'  => 'Trabajo en Cron ha sido creado correctamente.',
     'IP_CREATED_OK'  => 'Dirección IP <a href="/edit/ip/?ip=%s"><b>%s</b></a> ha sido creada correctamente.',
