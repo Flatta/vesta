@@ -12,9 +12,9 @@
               </td>
               <td class="l-sort-toolbar__search-box step-left">
                 <form action="/search/" method="get">
-                  <input type="hidden" name="token" value="<?=$_SESSION['token']?>" />
-                  <input type="text" name="q" class="search-input" value="<? echo isset($_POST['q']) ? htmlspecialchars($_POST['q']) : '' ?>" />
-                  <input type="submit" value="" class="l-sort-toolbar__search" onClick="return doSearch('/search/')" />
+                  <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
+                  <input type="text" name="q" class="search-input" value="<? echo isset($_POST['q']) ? htmlspecialchars($_POST['q']) : '' ?>">
+                  <input type="submit" value="" class="l-sort-toolbar__search" onClick="return doSearch('/search/')">
                 </form>
               </td>
               <td class="toggle-all">
@@ -23,14 +23,14 @@
               </td>
               <td>
                 <form action="/bulk/vesta/" method="post">
-                <input type="hidden" name="token" value="<?=$_SESSION['token']?>" />
+                <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
                 <div class="l-select">
                   <select name="action" id="">
                     <option value=""><?=__('apply to selected')?></option>
                     <option value="update"><?php print __('update') ?></option>
                   </select>
                 </div>
-                <input type="submit" value="" class="l-sort-toolbar__filter-apply" />
+                <input type="submit" value="" class="l-sort-toolbar__filter-apply">
               </td>
             </tr>
           </table>

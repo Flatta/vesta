@@ -30,8 +30,8 @@
           }
         ?>
         <form id="vstobjects" name="v_add_mail_acc" method="post">
-            <input type="hidden" name="token" value="<?=$_SESSION['token']?>" />
-            <input type="hidden" name="ok_acc" value="add" />
+            <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
+            <input type="hidden" name="ok_acc" value="add">
             <script type="text/javascript">
                 function elementHideShow(elementToHideOrShow) {
                     var el = document.getElementById(elementToHideOrShow);
@@ -135,7 +135,7 @@
                                     <tr>
                                         <td>
                                             <input type="text" size="20" class="vst-input" name="v_quota" <?php if (!empty($v_quota)) echo "value=".htmlentities($v_quota); ?>>
-                                            <img class="unlim-trigger" id="unlim-quota" src="/images/unlim.png" />
+                                            <img class="unlim-trigger" id="unlim-quota" src="/images/unlim.png">
                                         </td>
                                     </tr>
                                 <tr>

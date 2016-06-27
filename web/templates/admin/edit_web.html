@@ -30,8 +30,8 @@
         }
       ?>
         <form id="vstobjects" name="v_edit_web" method="post"  class="<?=$v_status?>">
-            <input type="hidden" name="token" value="<?=$_SESSION['token']?>" />
-            <input type="hidden" name="save" value="save" />
+            <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
+            <input type="hidden" name="save" value="save">
             <script language="javascript">
                 function WEBrandom() {
                     var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
@@ -351,8 +351,8 @@
                                         <tr>
                                             <td class="vst-text input-label">
                                                 <?php print __('FTP') ?> #<span class="ftp-user-number"><?php print $i + 1; ?></span> <a class="ftp-remove-user additional-control" onCLick="App.Actions.WEB.remove_ftp_user(this)">(<?=__('delete')?>)</a>
-                                                <input type="hidden" class="v-ftp-user-deleted" name="v_ftp_user[<?php print $i ?>][delete]" value="0" />
-                                                <input type="hidden" class="v-ftp-user-is-new" name="v_ftp_user[<?php print $i ?>][is_new]" value="<?php print htmlentities($ftp_user['is_new']) ?>" />
+                                                <input type="hidden" class="v-ftp-user-deleted" name="v_ftp_user[<?php print $i ?>][delete]" value="0">
+                                                <input type="hidden" class="v-ftp-user-is-new" name="v_ftp_user[<?php print $i ?>][is_new]" value="<?php print htmlentities($ftp_user['is_new']) ?>">
                                             </td>
                                         </tr>
                                         <tr>
@@ -387,7 +387,7 @@
                                             <td class="step-left">
                                                 <input type="hidden" class="vst-input v-ftp-pre-path" name="v_ftp_pre_path" value="<?php print !empty($v_ftp_pre_path) ? htmlentities($v_ftp_pre_path) : '/'; ?>">
                                                 <input type="text"  class="vst-input v-ftp-path" name="v_ftp_user[<?php print $i ?>][v_ftp_path]" <?php if (!empty($v_ftp_path)) echo "value=".($v_ftp_path[0] != '/' ? '/' : '').htmlentities($v_ftp_path); ?>>
-                                                <br /><span class="ftp-path-prefix"><?php print $v_ftp_pre_path ?></span><span class="ftp-path-value v-ftp-path-hint"></span>
+                                                <br><span class="ftp-path-prefix"><?php print $v_ftp_pre_path ?></span><span class="ftp-path-value v-ftp-path-hint"></span>
                                             </td>
                                         </tr>
                                         <?php if ($ftp_user['is_new'] == 1): ?>
@@ -433,8 +433,8 @@
                 <tr> 
                     <td class="vst-text input-label">
                         <?php print __('FTP') ?> #<span class="ftp-user-number"></span> <a class="ftp-remove-user additional-control" onCLick="App.Actions.WEB.remove_ftp_user(this)">(<?=__('delete')?>)</a>
-                        <input type="hidden"  class="v-ftp-user-deleted" name="v_ftp_user[%INDEX%][delete]" value="0" />
-                        <input type="hidden" class="v-ftp-user-is-new" name="v_ftp_user[%INDEX%][is_new]" value="1" />
+                        <input type="hidden"  class="v-ftp-user-deleted" name="v_ftp_user[%INDEX%][delete]" value="0">
+                        <input type="hidden" class="v-ftp-user-is-new" name="v_ftp_user[%INDEX%][is_new]" value="1">
                     </td>
                 </tr>
                 <tr>
@@ -469,7 +469,7 @@
                     <td class="step-left">
                         <input type="hidden" class="vst-input v-ftp-pre-path" name="v_ftp_pre_path" value="">
                         <input type="text"  class="vst-input v-ftp-path" name="v_ftp_user[%INDEX%][v_ftp_path]" value="">
-                        <br /><span class="ftp-path-prefix"><?php print $v_ftp_pre_path_new_user ?></span><span class="ftp-path-value v-ftp-path-hint"></span>
+                        <br><span class="ftp-path-prefix"><?php print $v_ftp_pre_path_new_user ?></span><span class="ftp-path-value v-ftp-path-hint"></span>
                     </td>
                 </tr>
                 <tr>

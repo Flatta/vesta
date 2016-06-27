@@ -31,8 +31,8 @@
       ?>
 
         <form id="vstobjects" name="v_configure_server" method="post">
-            <input type="hidden" name="token" value="<?=$_SESSION['token']?>" />
-            <input type="hidden" name="save" value="save" />
+            <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
+            <input type="hidden" name="save" value="save">
             <script type="text/javascript">
                 function elementHideShow(elementToHideOrShow) {
                     var el = document.getElementById(elementToHideOrShow);
@@ -687,13 +687,13 @@
                                                         $licence_key = $_GET['sftp_licence_key'] != '' ? $_GET['sftp_licence_key'] : $_SESSION['SFTPJAIL_KEY'];
                                                         echo __('Restrict users so that they cannot use SSH and access only their home directory.').'
                                                             <div class="licence">
-                                                                '.__('Licence Key').': <input type="text" class="vst-input" name="v_sftp_licence" value="'.$licence_key.'" /><br>
+                                                                '.__('Licence Key').': <input type="text" class="vst-input" name="v_sftp_licence" value="'.$licence_key.'"><br>
                                                             </div>';
                                                     } else {
                                                         echo
                                                             __('Restrict users so that they cannot use SSH and access only their home directory.').' '.__('This is a commercial module, you would need to purchace license key to enable it.').
                                                             '<div class="licence">
-                                                                '.__('Enter License Key').': <input type="text" class="vst-input" name="v_sftp_licence" /><br>
+                                                                '.__('Enter License Key').': <input type="text" class="vst-input" name="v_sftp_licence"><br>
                                                             </div>
                                                             <ul>
                                                                 <li>
@@ -735,13 +735,13 @@
                                                         $licence_key = $_GET['filemanager_licence_key'] != '' ? $_GET['filemanager_licence_key'] : $_SESSION['FILEMANAGER_KEY'];
                                                         echo __('Browse, copy, edit, view, and retrieve all of your web domain files using fully featured File Manager.').
                                                             '<div class="licence">
-                                                                '.__('Licence Key').': <input type="text" class="vst-input" name="v_filemanager_licence" value="'.$licence_key.'" /><br>
+                                                                '.__('Licence Key').': <input type="text" class="vst-input" name="v_filemanager_licence" value="'.$licence_key.'"><br>
                                                             </div>';
                                                     } else {
                                                         echo __('Browse, copy, edit, view, and retrieve all of your web domain files using fully featured File Manager.').' '.
                                                             __('This is a commercial module, you would need to purchace license key to enable it.').
                                                             '<div class="licence">
-                                                                '.__('Enter Licence Key').': <input type="text" class="vst-input" name="v_filemanager_licence" /><br>
+                                                                '.__('Enter Licence Key').': <input type="text" class="vst-input" name="v_filemanager_licence"><br>
                                                             </div>
                                                             <ul>
                                                                 <li>

@@ -15,9 +15,9 @@
             <tr>
               <td class="l-sort-toolbar__search-box">
                 <form action="/search/" method="get">
-                  <input type="hidden" name="token" value="<?=$_SESSION['token']?>" />
-                  <input type="text" name="q" class="search-input" value="<? echo isset($_POST['q']) ? htmlspecialchars($_POST['q']) : '' ?>" />
-                  <input type="submit" value="" class="l-sort-toolbar__search" onClick="return doSearch('/search/')" />
+                  <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
+                  <input type="text" name="q" class="search-input" value="<? echo isset($_POST['q']) ? htmlspecialchars($_POST['q']) : '' ?>">
+                  <input type="submit" value="" class="l-sort-toolbar__search" onClick="return doSearch('/search/')">
                 </form>
               </td>
               <td class="toggle-all">
@@ -29,14 +29,14 @@
               </td>
               <td>
                 <form action="/bulk/dns/" method="post">
-                <input type="hidden" name="token" value="<?=$_SESSION['token']?>" />
+                <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
                 <div class="l-select">
                   <select name="action" id="">
                     <option value=""><?=__('apply to selected')?></option>
                     <option value="delete"><?php print __('delete');?></option>
                   </select>
                 </div>
-                <input type="submit" value="" class="l-sort-toolbar__filter-apply" />
+                <input type="submit" value="" class="l-sort-toolbar__filter-apply">
               </td>
             </tr>
           </table>
@@ -85,7 +85,7 @@ sort-expire="<?=strtotime($data[$key]['EXP'])?>" sort-records="<?=(int)$data[$ke
               <div class="actions-panel__col actions-panel__delete shortcut-delete" key-action="js">
                 <a id="delete_link_<?=$i?>" class="data-controls do_delete">
                   <?=__('delete')?> <i class="do_delete"></i>
-                  <input type="hidden" name="delete_url" value="/delete/dns/?domain=<?=$key?>&amp;token=<?=$_SESSION['token']?>" />
+                  <input type="hidden" name="delete_url" value="/delete/dns/?domain=<?=$key?>&amp;token=<?=$_SESSION['token']?>">
                   <div id="delete_dialog_<?=$i?>" class="confirmation-text-delete hidden" title="<?=__('Confirmation')?>">
                     <p class="confirmation"><?=__('DELETE_DOMAIN_CONFIRMATION',$key)?></p>
                   </div>

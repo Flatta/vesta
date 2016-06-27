@@ -24,4 +24,4 @@
 <div class="del button small" onClick="FM.setTabActive(FM['TAB_<?php echo $pre_tab ?>']);FM.deleteItems()" title="<?=__('DELETE')?>"></div>
 
 
-<div class="sort-by button medium"><span class="direction"></span><span class="entity"><?=__('type')?></span><input type="hidden" class="sort-by-v" /></div>
+<div class="sort-by button medium"><span class="direction"></span><span class="entity"><?=__('type')?></span><input type="hidden" class="sort-by-v"></div>

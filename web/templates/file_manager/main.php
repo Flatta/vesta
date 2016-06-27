@@ -5,8 +5,8 @@
 <title><?=__('File Manager')?></title>
 <link rel="shortcut icon" href="/images/filemanager.ico?" type="image/x-icon">
 <link rel="icon" href="/images/filemanager.ico?" type="image/x-icon">
-<link rel="stylesheet" href="/css/file_manager.css" type="text/css" />
-<link rel="stylesheet" type="text/css" href="/css/uploadify.css" />
+<link rel="stylesheet" href="/css/file_manager.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="/css/uploadify.css">
 <link href="//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.2/fotorama.css" rel="stylesheet">
 <style type="text/css" media="print, screen and (min-width: 481px)"></style>
 <!-- link rel="shortcut icon" href="/2008/site/images/favicon.ico" type="image/x-icon" / -->

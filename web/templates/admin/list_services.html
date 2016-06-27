@@ -7,9 +7,9 @@
             <tr>
               <td class="l-sort-toolbar__search-box">
                 <form action="/search/" method="get">
-                  <input type="hidden" name="token" value="<?=$_SESSION['token']?>" />
-                  <input type="text" name="q" class="search-input" value="<? echo isset($_POST['q']) ? htmlspecialchars($_POST['q']) : '' ?>" />
-                  <input type="submit" value="" class="l-sort-toolbar__search" onClick="return doSearch('/search/')" />
+                  <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
+                  <input type="text" name="q" class="search-input" value="<? echo isset($_POST['q']) ? htmlspecialchars($_POST['q']) : '' ?>">
+                  <input type="submit" value="" class="l-sort-toolbar__search" onClick="return doSearch('/search/')">
                 </form>
               </td>
               <td class="step-right">
@@ -21,7 +21,7 @@
               </td>
               <td>
                 <form action="/bulk/service/" method="post" id="objects">
-                <input type="hidden" name="token" value="<?=$_SESSION['token']?>" />
+                <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
                 <div class="l-select">
                     <select class="" name="action">
                       <option value=""><?php print __('apply to selected');?></option>

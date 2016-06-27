@@ -19,7 +19,7 @@ if (($_SESSION['user'] == 'admin') && (!empty($_SESSION['look']))) {
 ?>
 
 <title>Edit file <?= htmlspecialchars($_REQUEST['path']) ?></title>
-<meta charset="utf-8" /> 
+<meta charset="utf-8"> 
 
 <link href="/css/file_manager_editor.css" type="text/css" rel="stylesheet">
 <script src="/js/cheef-editor/jquery/jquery-1.8.3.min.js"></script>
@@ -71,7 +71,7 @@ if (($_SESSION['user'] == 'admin') && (!empty($_SESSION['look']))) {
 
 <form id="edit-file-form" method="post">
 <!-- input id="do-backup" type="button" onClick="javascript:void(0);" name="save" value="backup (ctrl+F2)" class="backup" / -->
-<input type="submit" name="save" value="Save" class="save" />
+<input type="submit" name="save" value="Save" class="save">
 
 
 <textarea name="contents" class="editor" id="editor" rows="4" style="display:none;width: 100%; height: 100%;"><?=htmlentities($content)?></textarea>
