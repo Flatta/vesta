@@ -32,7 +32,7 @@
         <form id="vstobjects" name="v_edit_web" method="post"  class="<?=$v_status?>">
             <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
             <input type="hidden" name="save" value="save">
-            <script language="javascript">
+            <script type="text/javascript">
                 function WEBrandom() {
                     var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
                     var string_length = 10;
@@ -124,7 +124,7 @@
                                     <textarea size="20" class="vst-textinput" name="v_aliases"><?php if (!empty($v_aliases)) echo htmlentities($v_aliases);  ?></textarea>
                                 </td>
                             </tr>
-                            <?php if (!empty($_SESSION['PROXY_SYSTEM'])) { echo ""; ?> 
+                            <?php if (!empty($_SESSION['PROXY_SYSTEM'])) { echo ""; ?>
                             <tr>
                                 <td class="vst-text step-top">
                                     <label><input type="checkbox" size="20" class="vst-checkbox" name="v_proxy" <?php if (!empty($v_proxy)) echo "checked=yes" ?> onclick="javascript:elementHideShow('proxytable');"> <?php print __('Proxy Support');?></label>
@@ -146,7 +146,7 @@
                                     </table>
                                 </td>
                             </tr>
-                            <?php echo ""; }?> 
+                            <?php echo ""; }?>
                             <tr>
                                 <td class="vst-text step-top">
                                     <label><input type="checkbox" size="20" class="vst-checkbox" name="v_ssl" <?php if ($v_ssl == 'yes') echo "checked=yes" ?> onclick="javascript:elementHideShow('ssltable');"> <?php print __('SSL Support');?></label> /
@@ -176,7 +176,7 @@
                                         </tr>
                                         <tr>
                                             <td class="vst-text input-label">
-                                                <?php print __('SSL Certificate');?> 
+                                                <?php print __('SSL Certificate');?>
                                             </td>
                                         </tr>
                                         <tr>
@@ -225,7 +225,7 @@
                                                 }
                                             echo ">". htmlentities(__($value)) ."</option>\n";
                                             }
-                                    ?> 
+                                    ?>
                                     </select>
                                 </td>
                             </tr>
@@ -359,7 +359,7 @@
 
         <div id="templates" class="hidden">
             <table class="ftptable ftptable-nrm" name="v_add_domain_ftp">
-                <tr> 
+                <tr>
                     <td class="vst-text input-label">
                         <?php print __('FTP') ?> #<span class="ftp-user-number"></span> <a class="ftp-remove-user additional-control" onclick="App.Actions.WEB.remove_ftp_user(this)">(<?=__('delete')?>)</a>
                         <input type="hidden"  class="v-ftp-user-deleted" name="v_ftp_user[%INDEX%][delete]" value="0">
@@ -426,4 +426,3 @@
             });
         </script>
         <script type="text/javascript" src="/js/pages/edit.web.js"></script>
-
