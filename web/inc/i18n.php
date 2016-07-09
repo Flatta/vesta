@@ -122,7 +122,33 @@ function detect_user_language($fallback='en') {
  * @param string Fallback language (default: 'en')
  * @return string Language code (such as 'en' and 'ja')
  */
-
 function detect_login_language(){
 
+}
+
+
+function _translate_datetime($format, $datetime) {
+    // Create a DateTime object
+    // Note: the timezone of created object should be incorrect!
+    $dtobj = new DateTime($datetime);
+
+    // Translate some words such as 'Sun', 'Monday', 'January', 'Feb', 'am', 'PM', 'st', 'nd', ...
+    // See http://php.net/manual/function.date.php#refsect1-function.date-parameters
+    $format_array = preg_split('/((?:\\\\.|[^DlSFMaA])*)/', $format, null, PREG_SPLIT_DELIM_CAPTURE);
+    $ret = '';
+    foreach ($format_array as $index => $element) {
+        if (empty($element)) continue;
+        $temp = $dtobj->format($element);
+        $ret .= $index & 1 ? $temp : __($temp);
+    }
+
+    return $ret;
+}
+
+function translate_date($date) {
+    return _translate_datetime(__('DATE_FORMAT'), $date);
+}
+
+function translate_time($time) {
+    return _translate_datetime(__('TIME_FORMAT'), $time);
 }
